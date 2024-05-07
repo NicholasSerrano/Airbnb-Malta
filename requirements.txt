@@ -3,3 +3,4 @@ streamlit
 seaborn 
 streamlit 
 requests
+streamlit.components.v1
