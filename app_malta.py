@@ -4,6 +4,7 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
+from flask import Flask, render_template
 
 # --------------------CONFIGURACIÓN DE LA PÁGINA----------------------------#
 st.set_page_config(
@@ -81,3 +82,18 @@ En resumen, el análisis de datos de Airbnb en Malta proporciona una visión det
 
 
 """)
+from flask import Flask, render_template
+
+app = Flask(__name__)
+
+@app.route('/')
+def index():
+    # Código HTML generado por Power BI
+    power_bi_html = """
+    <iframe title="data_listings_graficos_2" width="550" height="900" src="https://app.powerbi.com/view?r=eyJrIjoiYWY1OWM5NDUtYWFlMy00Yzg5LWE1MTQtNjBlOWM4NDMyMTJjIiwidCI6IjhhZWJkZGI2LTM0MTgtNDNhMS1hMjU1LWI5NjQxODZlY2M2NCIsImMiOjl9" frameborder="0" allowFullScreen="true"></iframe>"""
+
+    return render_template('index.html', power_bi_html=power_bi_html)
+
+if __name__ == '__main__':
+    app.run(debug=True)
+
