@@ -1,3 +1,5 @@
+![Logo de Markdown](https://github.com/NicholasSerrano/Airbnb-Malta/blob/main/Captura%20de%20pantalla%202024-05-07%20173018.png)
+
 # Repositorio de Airbnb en Malta: Análisis de Datos
 "Este repositorio contiene datos recopilados de Airbnb en Malta, ofreciendo una visión detallada del mercado de alquileres vacacionales en la isla. Incluye información sobre propiedades disponibles, precios, tipos de alojamiento y valoraciones de los huéspedes. Estos datos son útiles para análisis de mercado, estudios de tendencias turísticas 
 
