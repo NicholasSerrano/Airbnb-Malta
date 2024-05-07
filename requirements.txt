@@ -4,3 +4,4 @@ seaborn
 streamlit 
 requests
 numpy
+Flask
